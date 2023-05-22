@@ -6,7 +6,7 @@ success,image = vid.read()
 c = 0
 while success:
   os.system('cls')
-  cv2.imwrite("D:/Code2.0/V2frm/Op/Frame%05d.png" % c, image)    
+  cv2.imwrite("......./Op/Frame%05d.png" % c, image)    
   success,image = vid.read()
   print('Reading frame: ', c)
   c = c + 1
